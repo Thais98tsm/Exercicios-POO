@@ -1,0 +1,11 @@
+using System.Collections.Generic;
+
+namespace Exercicio2.Interfaces
+{
+    public interface Imposto<T>//Tipo genérico
+    {
+         double calculaImposto(T entidade){
+             
+         }
+    }
+}
